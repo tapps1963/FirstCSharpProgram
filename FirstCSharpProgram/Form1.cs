@@ -16,5 +16,10 @@ namespace FirstCSharpProgram
         {
             InitializeComponent();
         }
+
+        private void cmdHello_Click(object sender, EventArgs e)
+        {
+            txtHello.Text = "hello world";
+        }
     }
 }
